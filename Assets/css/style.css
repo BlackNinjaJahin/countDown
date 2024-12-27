@@ -1,0 +1,57 @@
+*{
+     padding:  0;
+     margin:   0;
+     box-sizing: border-box;
+     font-family:  'poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main{
+    width:  100%;
+    height: 100vh;
+    background: url('https://as1.ftcdn.net/v2/jpg/09/30/63/44/1000_F_930634417_rkcWDsVKo4z4qbAsXFscy7gMqpvgF6wD.jpg') no-repeat center center/cover;
+    background-size:cover;
+ 
+}
+.overlay{
+    width:  100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10px;
+}
+.col{
+    margin-top: 10px;
+    width:  1000px;
+    height:  100px;
+    justify-content: center;
+
+    color: white;
+    display: flex;
+
+}
+.col div{
+     width:250 px;
+     text-align: center;
+}
+input{
+    width: 60%;
+    height: 50px;
+    display: block;
+    margin:  20px auto;
+    border-radius: 5px;
+    border-color: transparent;
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
